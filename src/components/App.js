@@ -12,26 +12,12 @@ function App() {
           <Route path="/fact">
             <Fact/>
           </Route>
-          <Route path="/breeds"></Route>
-          
-          <Breed/>
+          <Route path="/breeds">
+            <Breed/>
+          </Route>
       </Switch>
     </Router>
   );
 }
 
 export default App;
-
-
-
-<Router>
-<NavBar />
-<Switch>
-  <Route path = "/signin">
-    <Signin />
-  </Route>
-  <Route path = "/">
-    <RecipeControl />
-  </Route>
-</Switch>
-</Router>
