@@ -1,26 +1,26 @@
 import * as c from '../actions/ActionTypes';
 
 const initialState = {
-  errorFact: null,
-  isLoadingFact: false,
-  fact: null
+  errorBreeds: null,
+  isLoadingBreeds: false,
+  breeds: null
 }
 
 export default(state = initialState, action) => {
   switch (action.type) {
-    case c.REQUEST_FACT:
+    case c.REQUEST_BREEDS:
       return Object.assign({}, state, {
-        isLoading: true
+        isLoadingBreeds: true
       });
-    case c.GET_FACT_SUCCESS:
+    case c.GET_BREEDS_SUCCESS:
       return Object.assign({}, state, {
-        isLoading: false,
-        fact: action.fact
+        isLoadingBreeds: false,
+        breeds: action.breeds
       });
-    case c.GET_FACT_FAILURE:
+    case c.GET_BREEDS_FAILURE:
       return Object.assign({}, state, {
-        isLoading: false,
-        error: action.error
+        isLoadingBreeds: false,
+        errorBreeds: action.error
       });
     default:
       return state;
