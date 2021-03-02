@@ -4,7 +4,7 @@ import {useFetch} from './useFetch';
 const Fact = () => {
 
   const [clicked, updateClick] = useState(0);
-  const { fact, error } = useFetch(`https://catfact.ninja/fact`, clicked);
+  const { fact } = useFetch(`https://catfact.ninja/fact`, clicked);
 
       return(
         <>
