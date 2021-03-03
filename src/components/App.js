@@ -22,7 +22,7 @@ function App() {
           <Route path="/breeds">
             <Breed/>
           </Route>
-          <Route path="/Threed">
+          <Route path="/kittycube">
             <Threed/>
           </Route>
         </Switch>
