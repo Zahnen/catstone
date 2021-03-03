@@ -6,12 +6,12 @@ react-spring
 react-hooks
 Bootstrap 5
 
-cool features: hooks, routing, Fetch Apis, animations
+cool features: hooks, routing, Fetch Apis, animations, HUNDREDS OF CAT PHOTOS
 
 
 Cats Ahoy:
 Use the https://thecatapi.com/ to generate an infinite scroll page of cat images
-  the key for this api is: f9d443c6-4a66-4558-ae57-8d88bf1095d4
+  the key for this api is:
 
 Infinite Scrolllllllll: https://www.npmjs.com/package/react-infinite-scroll-component
 

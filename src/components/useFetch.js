@@ -3,7 +3,8 @@ import {useState, useEffect} from 'react';
 const initialState = {
   errorFact: null,
   fact: null,
-  breeds: []
+  breeds: [],
+  photos: []
 }
 
 export const useFetch = (url, clicked) => {
@@ -14,7 +15,7 @@ export const useFetch = (url, clicked) => {
     fetch(url)
     .then(response => response.json())
     .then(jsonifiedResponse => {
-      setState({ fact: jsonifiedResponse.fact, breeds: jsonifiedResponse.data});
+      setState({ fact: jsonifiedResponse.fact, breeds: jsonifiedResponse.data, photos: jsonifiedResponse});
     });
 }, [clicked]);
 

@@ -21,6 +21,9 @@ return(
           <Link className="nav-link active" aria-current="page" to="/fact">Fact</Link>
           </li>
           <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/catpics">Cat Pics</Link>
+          </li>
+          <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/kittycube">Kitty Cube</Link>
           </li>
         </ul>
