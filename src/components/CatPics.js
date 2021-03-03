@@ -16,7 +16,6 @@ const CatPics = () => {
   let { photos } = useFetch(url);
 
   function handleClick(url) {
-    let photos= [];
     updateUrl(url);
   }
 
