@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/catstone/static/css/main.978ca2db.chunk.css",
-    "main.js": "/catstone/static/js/main.bcd10b1e.chunk.js",
-    "main.js.map": "/catstone/static/js/main.bcd10b1e.chunk.js.map",
+    "main.js": "/catstone/static/js/main.d77adefb.chunk.js",
+    "main.js.map": "/catstone/static/js/main.d77adefb.chunk.js.map",
     "runtime-main.js": "/catstone/static/js/runtime-main.b4c79e91.js",
     "runtime-main.js.map": "/catstone/static/js/runtime-main.b4c79e91.js.map",
     "static/css/2.3406d7a6.chunk.css": "/catstone/static/css/2.3406d7a6.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.3406d7a6.chunk.css",
     "static/js/2.bb25f0b6.chunk.js",
     "static/css/main.978ca2db.chunk.css",
-    "static/js/main.bcd10b1e.chunk.js"
+    "static/js/main.d77adefb.chunk.js"
   ]
 }
