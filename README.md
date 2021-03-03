@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Cats Ahoy:
+Use the https://thecatapi.com/ to generate an infinite scroll page of cat images
+  the key for this api is: f9d443c6-4a66-4558-ae57-8d88bf1095d4
+
+Infinite Scrolllllllll: https://www.npmjs.com/package/react-infinite-scroll-component
+
+https://javascript.plainenglish.io/react-infinite-scrolling-and-lazy-loading-171909f92b54
+

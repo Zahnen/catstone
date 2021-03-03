@@ -13,10 +13,14 @@ const Fact = () => {
 
       return(
         <>
-          <h5>Cat Facts</h5>
+        <div className="card m-3">
+          <div className="card-header p-3">
+            <h5>Cat Facts</h5>
+          </div>
             <animated.div style={props}>
-              <p>{!fact ? "loading..." : fact}</p>
+              <h3 className="p-3">{!fact ? "loading..." : fact}</h3>
             </animated.div>
+          </div>
             <div id="jiggleButton" onClick={() => toggle(!state)}>
               <animated.div
               style={{
