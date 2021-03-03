@@ -17,7 +17,7 @@ export const useFetch = (url, clicked) => {
     .then(jsonifiedResponse => {
       setState({ fact: jsonifiedResponse.fact, breeds: jsonifiedResponse.data, photos: jsonifiedResponse});
     });
-}, [clicked]);
+}, [url, clicked]);
 
   return state;
 };

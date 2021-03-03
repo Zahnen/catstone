@@ -1,10 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {useFetch} from './useFetch';
 
 const Breed = () => {
 
-  const [clicked, updateClick] = useState(0);
-  const { breeds } = useFetch(`https://catfact.ninja/breeds`, clicked);
+  const { breeds } = useFetch(`https://catfact.ninja/breeds`);
   console.log(breeds);
     if(!breeds){
       return(
@@ -14,9 +13,9 @@ const Breed = () => {
       return(
         <>
           <div className ="d-flex flex-row flex-wrap my-flex-container">
-          {breeds.map((breed) => {
+          {breeds.map((breed, index) => {
             return (
-            <div className="card m-3" style={{width: "18rem"}} >
+            <div className="card m-3" style={{width: "18rem"}} key = {index}>
               <h2 className="card-header">{breed.breed}</h2>
               <div className="card-body">
                 <ul>
