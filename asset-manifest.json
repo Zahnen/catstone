@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/catstone/static/css/main.978ca2db.chunk.css",
+    "main.js": "/catstone/static/js/main.11abbb9b.chunk.js",
+    "main.js.map": "/catstone/static/js/main.11abbb9b.chunk.js.map",
+    "runtime-main.js": "/catstone/static/js/runtime-main.b4c79e91.js",
+    "runtime-main.js.map": "/catstone/static/js/runtime-main.b4c79e91.js.map",
+    "static/css/2.3406d7a6.chunk.css": "/catstone/static/css/2.3406d7a6.chunk.css",
+    "static/js/2.8be6da4a.chunk.js": "/catstone/static/js/2.8be6da4a.chunk.js",
+    "static/js/2.8be6da4a.chunk.js.map": "/catstone/static/js/2.8be6da4a.chunk.js.map",
+    "index.html": "/catstone/index.html",
+    "static/css/2.3406d7a6.chunk.css.map": "/catstone/static/css/2.3406d7a6.chunk.css.map",
+    "static/css/main.978ca2db.chunk.css.map": "/catstone/static/css/main.978ca2db.chunk.css.map",
+    "static/js/2.8be6da4a.chunk.js.LICENSE.txt": "/catstone/static/js/2.8be6da4a.chunk.js.LICENSE.txt",
+    "static/media/bulma.ca4c5b5a.jpg": "/catstone/static/media/bulma.ca4c5b5a.jpg",
+    "static/media/App.css": "/catstone/static/media/cats.ccd91a30.jpg",
+    "static/media/creamy.7690a4c8.jpg": "/catstone/static/media/creamy.7690a4c8.jpg",
+    "static/media/mara.8ffb2c9f.jpg": "/catstone/static/media/mara.8ffb2c9f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4c79e91.js",
+    "static/css/2.3406d7a6.chunk.css",
+    "static/js/2.8be6da4a.chunk.js",
+    "static/css/main.978ca2db.chunk.css",
+    "static/js/main.11abbb9b.chunk.js"
+  ]
+}
