@@ -13,7 +13,7 @@ function App() {
       <NavBar/>
       <div className="container"> 
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/catstone">
             <Home/>
           </Route>
           <Route path="/fact">
