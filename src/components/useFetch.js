@@ -10,7 +10,7 @@ export const useFetch = (url, clicked) => {
   const [state, setState] = useState(initialState);
 
   useEffect(() => {
-    setState(state => ({fact: state.fact, breeds: state.breed}))
+    // setState(state => ({fact: state.fact, breeds: state.breed}))
     fetch(url)
     .then(response => response.json())
     .then(jsonifiedResponse => {

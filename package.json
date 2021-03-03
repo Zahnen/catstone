@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.9.0",
+    "@react-three/drei": "^3.9.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.0",
@@ -14,8 +15,10 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-spring": "^8.0.27",
+    "react-three-fiber": "^5.3.19",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
+    "three": "^0.126.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {

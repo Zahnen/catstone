@@ -20,6 +20,9 @@ return(
           <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/fact">Fact</Link>
           </li>
+          <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/threed">Threed</Link>
+          </li>
         </ul>
       </div>
     </div>

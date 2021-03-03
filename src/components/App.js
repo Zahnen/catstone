@@ -2,6 +2,7 @@ import Fact from './Fact';
 import Breed from './Breed';
 import NavBar from './NavBar';
 import Home from './Home';
+import Threed from './Threed';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/breeds">
             <Breed/>
+          </Route>
+          <Route path="/Threed">
+            <Threed/>
           </Route>
         </Switch>
       </div>

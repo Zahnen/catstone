@@ -78,3 +78,9 @@ Infinite Scrolllllllll: https://www.npmjs.com/package/react-infinite-scroll-comp
 
 https://javascript.plainenglish.io/react-infinite-scrolling-and-lazy-loading-171909f92b54
 
+deployment 
+
+3d thing that's hard - on it's own seperate page
+
+https://www.youtube.com/watch?v=ClUZKhYLeqc
+
